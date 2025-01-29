@@ -1,5 +1,5 @@
-##CartPole Reinforcement Learning with DQN
-Overview
+# CartPole Reinforcement Learning with DQN
+## Overview
 
 This project trains a Deep Q-Network (DQN) agent to balance a pole on a cart in the CartPole-v1 environment from OpenAI Gym. The agent learns through reinforcement learning and is evaluated after training.
 Features
@@ -10,7 +10,7 @@ Features
     Tests the trained model with real-time visualization.
     Displays the final score after testing.
 
-Installation
+## Installation
 
 Ensure you have Python installed, then install the required dependencies:
 
@@ -22,7 +22,7 @@ Run the script to train and test the agent:
 
 python new_with_train.py
 
-Training
+## Training
 
 The script:
 
@@ -30,7 +30,7 @@ The script:
     Trains a DQN agent on the environment for 100,000 timesteps.
     Saves the trained model as cartpole_agent.
 
-Testing
+## Testing
 
 After training, the script:
 
@@ -50,6 +50,9 @@ Customization
 
     Adjust total_timesteps=100000 to train longer.
     Modify time.sleep(0.05) to change visualization speed during testing.
+
+# Here's a video of the model playing the game
+
 
 https://drive.google.com/file/d/17D-blWcj6pgnvqK0DpJ719hn3BDxAzDy/view?usp=sharing
 
