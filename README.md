@@ -1,4 +1,4 @@
-CartPole Reinforcement Learning with DQN
+##CartPole Reinforcement Learning with DQN
 Overview
 
 This project trains a Deep Q-Network (DQN) agent to balance a pole on a cart in the CartPole-v1 environment from OpenAI Gym. The agent learns through reinforcement learning and is evaluated after training.
