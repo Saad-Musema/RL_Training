@@ -56,6 +56,29 @@ Customization
 
 https://drive.google.com/file/d/17D-blWcj6pgnvqK0DpJ719hn3BDxAzDy/view?usp=sharing
 
+# MineRL RL Model - Tree Chopping Task
+
+This project trains a reinforcement learning (RL) agent using Stable-Baselines3's PPO algorithm in the MineRLTreechop-v0 environment. The goal is to teach the agent to efficiently chop trees within Minecraft.
+Features
+
+    Uses Proximal Policy Optimization (PPO) with a CNN-based policy.
+    Trains the model for 100,000 steps to improve performance.
+    Saves and loads the trained model for testing and evaluation.
+    Evaluates model performance over multiple episodes.
+
+Setup Instructions
+
+    Install dependencies:
+
+pip install minerl gym stable-baselines3
+
+Run the training script:
+
+    python train_minerl_rl.py
+
+    Load and test the trained model.
+
+
 License
 
 This project is open-source and provided for learning purposes.
